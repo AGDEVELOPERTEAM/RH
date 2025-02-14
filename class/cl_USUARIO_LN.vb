@@ -1,0 +1,15 @@
+Public Class cl_USUARIO_LN
+
+  Public Function LN_USUARIO_VALIDA(ByRef oUSUARIO_EN As cl_USUARIO_EN) As cl_USUARIO_EN
+    Dim wcl_USUARIO_AD As New cl_USUARIO_AD
+    oUSUARIO_EN = wcl_USUARIO_AD.AD_USUARIO_VALIDA(oUSUARIO_EN)
+    Return oUSUARIO_EN
+  End Function
+
+  Public Function LN_USUARIO_CARGA(ByVal oUSUARIO_EN As cl_USUARIO_EN) As cl_USUARIO_EN
+    Dim wcl_USUARIO_AD As New cl_USUARIO_AD
+    oUSUARIO_EN = wcl_USUARIO_AD.AD_USUARIO_CARGA(oUSUARIO_EN)
+    Return oUSUARIO_EN
+  End Function
+
+End Class

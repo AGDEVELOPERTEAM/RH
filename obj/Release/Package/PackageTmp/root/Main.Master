@@ -1,0 +1,408 @@
+ <%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Main.master.vb" Inherits="RH.Main" %>
+<%@ Import Namespace="System" %>
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+<%@ Import Namespace="RH" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="theme-color" content="#3C8DBC">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Recursos Humanos</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+   
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
+
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+
+  <!-- Select2 -->
+  <link rel="stylesheet" href="../plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="../plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+  <!-- Bootstrap4 Duallistbox -->
+  <link rel="stylesheet" href="../plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+  <!-- Toastr -->
+  <link rel="stylesheet" href="../plugins/toastr/toastr.min.css">
+
+  <!-- jQuery -->
+  <script src="../plugins/jquery/jquery.min.js"></script>
+  <!-- SweetAlert2 -->
+  <script src="../plugins/sweetalert2/sweetalert2.min.js"></script>
+  <!-- Toastr -->
+  <script src="../plugins/toastr/toastr.min.js"></script>
+     
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+
+  <script type="text/javascript">
+    function Notify(msg, title, type, clear, pos, sticky) {
+      //        toastr.options.positionClass = "toast-bottom-right";
+      //        toastr.options.positionClass = "toast-bottom-left";
+      //        toastr.options.positionClass = "toast-top-right";
+      //        toastr.options.positionClass = "toast-top-left";
+      //        toastr.options.positionClass = "toast-bottom-full-width";
+      //        toastr.options.positionClass = "toast-top-full-width";
+      //        options = {
+      //            tapToDismiss: true,
+      //            toastClass: 'toast',
+      //            containerId: 'toast-container',
+      //            debug: false,
+      //            fadeIn: 300,
+      //            fadeOut: 1000,
+      //            extendedTimeOut: 1000,
+      //            iconClass: 'toast-info',
+      //            positionClass: 'toast-top-right',
+      //            timeOut: 5000, // Set timeOut to 0 to make it sticky
+      //            titleClass: 'toast-title',
+      //            messageClass: 'toast-message' }
+
+
+      if (clear == true) {
+        toastr.clear();
+      }
+      if (sticky == true) {
+        toastr.tapToDismiss = true;
+        toastr.timeOut = 10000;
+      }
+
+      toastr.options.onclick = function () {
+        //alert('You can perform some custom action after a toast goes away');
+      }
+      //"toast-top-left";
+      toastr.options.positionClass = pos;
+      if (type.toLowerCase() == 'info') {
+        toastr.options.timeOut = 1000;
+        toastr.tapToDismiss = true;
+        toastr.info(msg, title);
+      }
+      if (type.toLowerCase() == 'success') {
+        toastr.options.timeOut = 1500;
+        toastr.success(msg, title);
+      }
+
+      if (type.toLowerCase() == 'warning') {
+        toastr.options.timeOut = 3000;
+        toastr.warning(msg, title);
+      }
+      if (type.toLowerCase() == 'error') {
+        toastr.options.timeOut = 10000;
+        toastr.error(msg, title);
+      }
+    }
+  </script>
+
+  <asp:ContentPlaceHolder ID="ph_head" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+
+<body class="hold-transition sidebar-mini  ">     <%--layout-navbar - fixed--%>
+
+  <!-- Site wrapper -->
+  <div class="wrapper">
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-gray-dark navbar-dark ">
+      <!-- Left navbar links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+      </ul>
+
+      <!-- TITULO -->
+
+      <form class="form-inline ml-3" >
+        <div class="input-group input-group-sm">
+          <asp:ContentPlaceHolder ID="ph_Titulo" runat="server">
+          </asp:ContentPlaceHolder>
+        </div>
+      </form>
+
+      <!-- Right navbar links -->
+      <ul class="navbar-nav ml-auto">
+        <!--OMBRE DE USUARIO >              
+                <!-- Notifications Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="far fa-bell"></i>
+            <span class="badge badge-warning navbar-badge">0</span>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+    <!-- /.navbar -->
+
+    <!-- Main Sidebar Container -->
+    <aside class="main-sidebar sidebar-dark-gray-dark">
+      <!-- Brand Logo -->
+      <!-- Brand Logo -->
+      <a href="default.aspx" class="brand-link">
+        <img src="/img/Log02b.png" alt="Admin" class="brand-image img-circle elevation-3"
+          style="opacity: .8; background-color: #FFFFFF;">
+        <span class="brand-text font-weight-light">Austral Group S.A.A.</span>
+      </a>
+
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+          <div class="image">
+            <img id="UserImg" src="#" class="img-circle elevation-2" alt="User Image" runat="server">
+          </div>
+          <div class="info">
+            <a href="#" class="d-block">
+              <asp:Label ID="tx_UsuarioNombre" runat="server" class="d-block" Text="" ForeColor="white" Font-Size="Larger" CssClass="nav icon fas fa-"></asp:Label>
+            </a>
+          </div>
+
+          <h3>
+              <asp:ContentPlaceHolder ID="plh_Mensaje" runat="server">
+              </asp:ContentPlaceHolder>
+          </h3>
+
+        </div>
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
+
+            <%
+
+              Dim oComun As New RH.cl_COMUN_AD
+              Dim wDesOpc As String
+              Dim wClass As String
+              Dim wForm As String
+              Dim wPrimi As Integer = 0
+              Dim wExit As Integer = 0
+              Dim dsOpcion As New DataTable
+
+              Dim oUSUARIO_EN As New cl_USUARIO_EN
+              Dim oUSUARIO_LN As New cl_USUARIO_LN
+
+              oUSUARIO_EN.KeyAcceso = Request.QueryString("id")
+              oUSUARIO_EN = oUSUARIO_LN.LN_USUARIO_CARGA(oUSUARIO_EN)
+
+              oComun.AgregaParametro("@i_usuario", "I", 10, oUSUARIO_EN.id)
+              dsOpcion = oComun.EjecutaProcedure("root.S_MENU_CARGA")
+
+              For nItem = 0 To dsOpcion.Rows.Count - 1
+                wDesOpc = dsOpcion.Rows(nItem).Item("v_Descripcion").ToString.Trim
+                wClass = dsOpcion.Rows(nItem).Item("v_MenuClass").ToString.Trim
+                wForm = dsOpcion.Rows(nItem).Item("v_Form").ToString.Trim
+                If InStr(wForm, "@id") > 0 Then
+                  wForm = Replace(wForm, "@id", oUSUARIO_EN.KeyAcceso)
+                End If
+
+                wExit = dsOpcion.Rows(nItem).Item("i_Exit")
+                Select Case dsOpcion.Rows(nItem).Item("v_idOpcionMenu").ToString.Trim.Length
+
+                  Case 4
+
+                    If wPrimi <> 0 Then
+            %>
+          </ul>
+                                <%
+                                      wPrimi = 0
+                                    End If
+
+                                %>
+          <li class="nav-item has-treeview">
+            <a href="<%=wForm%>" class="nav-link">
+              <i class="<%=wClass  %>"></i>
+              <p><%=wDesOpc %><i class="right fas fa-angle-left"></i></p>
+            </a>
+
+            <% If wExit = 0 Then
+            %><ul class="nav nav-treeview">
+              <%
+                  Else
+              %>
+          </li>
+          <%
+              End If   %>
+
+
+          <%Case 6%>
+          <li class="nav-item"><a href="<%Response.Write(wForm)%>" class="nav-link"><i class="<% Response.Write(wClass)  %>"></i>
+            <p><%response.Write(wDesOpc) %></p>
+          </a></li>
+
+          <%
+                  wPrimi = 1
+                End Select
+              Next%>
+     
+                  </li>
+                   
+                      </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+      </div>
+      <!-- /.sidebar -->
+    </aside>
+
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper" style="background-position: center left top; background-image: url('/img/fondo.jpg'); background-repeat: no-repeat; background-size:cover">
+      <!-- Content Header (Page header) -->
+      <div class="container-fluid">
+        <div class="row mb-1">
+          <asp:ContentPlaceHolder ID="ph_body_head" runat="server">
+          </asp:ContentPlaceHolder>
+        </div>
+      </div>
+      <!-- /.container-fluid -->
+
+      <!-- Main content -->
+      <section class="content">
+        <asp:ContentPlaceHolder ID="ph_body" runat="server">
+        </asp:ContentPlaceHolder>
+      </section>
+      <!-- /.content -->
+    </div>
+
+    <!-- /.content-wrapper -->
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+      <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+
+  </div>
+  <!-- ./wrapper -->
+  <!-- jQuery -->
+  <script src="../plugins/jquery/jquery.min.js"></script>
+ 
+  <!-- Bootstrap 4 -->
+  <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="../dist/js/adminlte.min.js"></script>
+  <!-- AdminLTE for demo purposes -->
+  <script src="../dist/js/demo.js"></script>
+  <!-- Select2 -->
+  <script src="../plugins/select2/js/select2.full.min.js"></script>
+  <!-- Bootstrap4 Duallistbox -->
+  <script src="../plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+  <!-- Toastr -->
+  <script src="../plugins/toastr/toastr.min.js"></script>
+  <!-- date-range-picker -->
+<script src="../plugins/daterangepicker/daterangepicker.js"></script>
+  <!-- InputMask -->
+  <script src="../plugins/inputmask/min/jquery.inputmask.bundle.min.js"></script>
+  <script src="../plugins/moment/moment.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+
+<!-- AdminLTE for demo purposes -->
+<script src="../dist/js/demo.js"></script>
+<!-- page script --> 
+
+  <!-- page script -->
+
+
+  <script>
+    $(function () {
+      //Initialize Select2 Elements
+      $('.select2').select2()
+
+      //Initialize Select2 Elements
+      $('.select2bs4').select2({
+        theme: 'bootstrap4'
+      })
+
+      //Datemask dd/mm/yyyy
+      $('#datemask').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })
+      //Datemask2 mm/dd/yyyy
+      $('#datemask2').inputmask('mm/dd/yyyy', { 'placeholder': 'mm/dd/yyyy' })
+      //Money Euro
+      $('[data-mask]').inputmask()
+
+      //Date range picker
+      //$('#reservationdate').datetimepicker({
+      //  format: 'L'
+      //});
+      ////Date range picker
+      //$('#reservation').daterangepicker()
+      ////Date range picker with time picker
+      //$('#reservationtime').daterangepicker({
+      //  timePicker: true,
+      //  timePickerIncrement: 30,
+      //  locale: {
+      //    format: 'MM/DD/YYYY hh:mm A'
+      //  }
+      //})
+      //Date range as a button
+      $('#daterange-btn').daterangepicker(
+        {
+          ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+          },
+          startDate: moment().subtract(29, 'days'),
+          endDate: moment()
+        },
+        function (start, end) {
+          $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
+        }
+      )
+
+      //Timepicker
+      $('#timepicker').datetimepicker({
+        format: 'LT'
+      })
+
+      //Bootstrap Duallistbox
+      $('.duallistbox').bootstrapDualListbox()
+
+      ////Colorpicker
+      //$('.my-colorpicker1').colorpicker()
+      ////color picker with addon
+      //$('.my-colorpicker2').colorpicker()
+
+      //$('.my-colorpicker2').on('colorpickerChange', function (event) {
+      //  $('.my-colorpicker2 .fa-square').css('color', event.color.toString());
+      //});
+
+      $("input[data-bootstrap-switch]").each(function () {
+        $(this).bootstrapSwitch('state', $(this).prop('checked'));
+      });
+
+
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+
+
+
+    })
+  </script>
+
+    <script>
+      function msg(cMensaje) {
+        bootbox.alert(cMensaje);
+      }
+    </script>
+
+</body>
+</html>

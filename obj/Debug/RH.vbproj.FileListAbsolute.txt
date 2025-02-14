@@ -1,0 +1,240 @@
+D:\data\proyectos\HR\HR\bin\RH.dll.config
+D:\data\proyectos\HR\HR\bin\RH.dll
+D:\data\proyectos\HR\HR\bin\RH.pdb
+D:\data\proyectos\HR\HR\bin\RH.xml
+D:\data\proyectos\HR\HR\bin\roslyn\csc.exe
+D:\data\proyectos\HR\HR\bin\roslyn\csc.exe.config
+D:\data\proyectos\HR\HR\bin\roslyn\csc.rsp
+D:\data\proyectos\HR\HR\bin\roslyn\csi.exe
+D:\data\proyectos\HR\HR\bin\roslyn\csi.rsp
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\data\proyectos\HR\HR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\data\proyectos\HR\HR\bin\roslyn\System.AppContext.dll
+D:\data\proyectos\HR\HR\bin\roslyn\System.Collections.Immutable.dll
+D:\data\proyectos\HR\HR\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\data\proyectos\HR\HR\bin\roslyn\System.IO.FileSystem.dll
+D:\data\proyectos\HR\HR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\data\proyectos\HR\HR\bin\roslyn\System.Reflection.Metadata.dll
+D:\data\proyectos\HR\HR\bin\roslyn\vbc.exe
+D:\data\proyectos\HR\HR\bin\roslyn\vbc.exe.config
+D:\data\proyectos\HR\HR\bin\roslyn\vbc.rsp
+D:\data\proyectos\HR\HR\bin\roslyn\VBCSCompiler.exe
+D:\data\proyectos\HR\HR\bin\roslyn\VBCSCompiler.exe.config
+D:\data\proyectos\HR\HR\bin\Infragistics45.Web.v16.1.dll
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Shared.v16.1.dll
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.WebSchedule.v16.1.dll
+D:\data\proyectos\HR\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\data\proyectos\HR\HR\bin\EnvDTE.dll
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.Reports.v16.1.dll
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.Excel.v16.1.dll
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.Word.v16.1.dll
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.IO.v16.1.dll
+D:\data\proyectos\HR\HR\bin\stdole.dll
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.Core.v16.1.dll
+D:\data\proyectos\HR\HR\bin\Infragistics45.Web.v16.1.xml
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Shared.v16.1.xml
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.WebSchedule.v16.1.xml
+D:\data\proyectos\HR\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.Reports.v16.1.xml
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.Excel.v16.1.xml
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.Word.v16.1.xml
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.IO.v16.1.xml
+D:\data\proyectos\HR\HR\bin\Infragistics45.WebUI.Documents.Core.v16.1.xml
+D:\data\proyectos\HR\HR\obj\Debug\RH.Resources.resources
+D:\data\proyectos\HR\HR\obj\Debug\RH.vbproj.GenerateResource.cache
+D:\data\proyectos\HR\HR\obj\Debug\RH.dll.licenses
+D:\data\proyectos\HR\HR\obj\Debug\RH.vbproj.CoreCompileInputs.cache
+D:\data\proyectos\HR\HR\obj\Debug\RH.vbproj.CopyComplete
+D:\data\proyectos\HR\HR\obj\Debug\RH.dll
+D:\data\proyectos\HR\HR\obj\Debug\RH.xml
+D:\data\proyectos\HR\HR\obj\Debug\RH.pdb
+D:\data\proyectos\HR\HR\obj\Debug\RH.vbproj.AssemblyReference.cache
+D:\data\proyectos\HR\HR\bin\EnvDTE.xml
+E:\Fuentes\HR\HR\bin\RH.dll.config
+E:\Fuentes\HR\HR\bin\RH.dll
+E:\Fuentes\HR\HR\bin\RH.pdb
+E:\Fuentes\HR\HR\bin\RH.xml
+E:\Fuentes\HR\HR\bin\roslyn\csc.exe
+E:\Fuentes\HR\HR\bin\roslyn\csc.exe.config
+E:\Fuentes\HR\HR\bin\roslyn\csc.rsp
+E:\Fuentes\HR\HR\bin\roslyn\csi.exe
+E:\Fuentes\HR\HR\bin\roslyn\csi.rsp
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Fuentes\HR\HR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Fuentes\HR\HR\bin\roslyn\System.AppContext.dll
+E:\Fuentes\HR\HR\bin\roslyn\System.Collections.Immutable.dll
+E:\Fuentes\HR\HR\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Fuentes\HR\HR\bin\roslyn\System.IO.FileSystem.dll
+E:\Fuentes\HR\HR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Fuentes\HR\HR\bin\roslyn\System.Reflection.Metadata.dll
+E:\Fuentes\HR\HR\bin\roslyn\vbc.exe
+E:\Fuentes\HR\HR\bin\roslyn\vbc.exe.config
+E:\Fuentes\HR\HR\bin\roslyn\vbc.rsp
+E:\Fuentes\HR\HR\bin\roslyn\VBCSCompiler.exe
+E:\Fuentes\HR\HR\bin\roslyn\VBCSCompiler.exe.config
+E:\Fuentes\HR\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Fuentes\HR\HR\bin\EnvDTE.dll
+E:\Fuentes\HR\HR\bin\stdole.dll
+E:\Fuentes\HR\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Fuentes\HR\HR\bin\EnvDTE.xml
+E:\Fuentes\HR\HR\obj\Debug\RH.vbproj.AssemblyReference.cache
+E:\Fuentes\HR\HR\obj\Debug\RH.Resources.resources
+E:\Fuentes\HR\HR\obj\Debug\RH.vbproj.GenerateResource.cache
+E:\Fuentes\HR\HR\obj\Debug\RH.dll.licenses
+E:\Fuentes\HR\HR\obj\Debug\RH.vbproj.CoreCompileInputs.cache
+E:\Fuentes\HR\HR\obj\Debug\RH.vbproj.CopyComplete
+E:\Fuentes\HR\HR\obj\Debug\RH.dll
+E:\Fuentes\HR\HR\obj\Debug\RH.xml
+E:\Fuentes\HR\HR\obj\Debug\RH.pdb
+D:\DISCO_ANT\Fuentes\HR\HR\bin\RH.dll.config
+D:\DISCO_ANT\Fuentes\HR\HR\bin\RH.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\RH.pdb
+D:\DISCO_ANT\Fuentes\HR\HR\bin\RH.xml
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\csc.exe
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\csc.exe.config
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\csc.rsp
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\csi.exe
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\csi.rsp
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\System.AppContext.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\System.Collections.Immutable.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\System.IO.FileSystem.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\System.Reflection.Metadata.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\vbc.exe
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\vbc.exe.config
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\vbc.rsp
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\VBCSCompiler.exe
+D:\DISCO_ANT\Fuentes\HR\HR\bin\roslyn\VBCSCompiler.exe.config
+D:\DISCO_ANT\Fuentes\HR\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\EnvDTE.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\stdole.dll
+D:\DISCO_ANT\Fuentes\HR\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DISCO_ANT\Fuentes\HR\HR\bin\EnvDTE.xml
+D:\DISCO_ANT\Fuentes\HR\HR\obj\Debug\RH.vbproj.AssemblyReference.cache
+D:\DISCO_ANT\Fuentes\HR\HR\obj\Debug\RH.Resources.resources
+D:\DISCO_ANT\Fuentes\HR\HR\obj\Debug\RH.vbproj.GenerateResource.cache
+D:\DISCO_ANT\Fuentes\HR\HR\obj\Debug\RH.dll.licenses
+D:\DISCO_ANT\Fuentes\HR\HR\obj\Debug\RH.vbproj.CoreCompileInputs.cache
+D:\DISCO_ANT\Fuentes\HR\HR\obj\Debug\RH.vbproj.CopyComplete
+D:\DISCO_ANT\Fuentes\HR\HR\obj\Debug\RH.dll
+D:\DISCO_ANT\Fuentes\HR\HR\obj\Debug\RH.xml
+D:\DISCO_ANT\Fuentes\HR\HR\obj\Debug\RH.pdb
+D:\Work\HR\HR\bin\RH.dll.config
+D:\Work\HR\HR\bin\RH.dll
+D:\Work\HR\HR\bin\RH.pdb
+D:\Work\HR\HR\bin\RH.xml
+D:\Work\HR\HR\bin\roslyn\csc.exe
+D:\Work\HR\HR\bin\roslyn\csc.exe.config
+D:\Work\HR\HR\bin\roslyn\csc.rsp
+D:\Work\HR\HR\bin\roslyn\csi.exe
+D:\Work\HR\HR\bin\roslyn\csi.rsp
+D:\Work\HR\HR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Work\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Work\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Work\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Work\HR\HR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Work\HR\HR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Work\HR\HR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Work\HR\HR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Work\HR\HR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Work\HR\HR\bin\roslyn\System.AppContext.dll
+D:\Work\HR\HR\bin\roslyn\System.Collections.Immutable.dll
+D:\Work\HR\HR\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Work\HR\HR\bin\roslyn\System.IO.FileSystem.dll
+D:\Work\HR\HR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Work\HR\HR\bin\roslyn\System.Reflection.Metadata.dll
+D:\Work\HR\HR\bin\roslyn\vbc.exe
+D:\Work\HR\HR\bin\roslyn\vbc.exe.config
+D:\Work\HR\HR\bin\roslyn\vbc.rsp
+D:\Work\HR\HR\bin\roslyn\VBCSCompiler.exe
+D:\Work\HR\HR\bin\roslyn\VBCSCompiler.exe.config
+D:\Work\HR\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Work\HR\HR\bin\EnvDTE.dll
+D:\Work\HR\HR\bin\stdole.dll
+D:\Work\HR\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Work\HR\HR\bin\EnvDTE.xml
+D:\Work\HR\HR\obj\Debug\RH.vbproj.AssemblyReference.cache
+D:\Work\HR\HR\obj\Debug\RH.Resources.resources
+D:\Work\HR\HR\obj\Debug\RH.vbproj.GenerateResource.cache
+D:\Work\HR\HR\obj\Debug\RH.dll.licenses
+D:\Work\HR\HR\obj\Debug\RH.vbproj.CoreCompileInputs.cache
+D:\Work\HR\HR\obj\Debug\RH.vbproj.CopyComplete
+D:\Work\HR\HR\obj\Debug\RH.dll
+D:\Work\HR\HR\obj\Debug\RH.xml
+D:\Work\HR\HR\obj\Debug\RH.pdb
+D:\Work\RH Intranet\HR\bin\RH.dll.config
+D:\Work\RH Intranet\HR\bin\RH.dll
+D:\Work\RH Intranet\HR\bin\RH.pdb
+D:\Work\RH Intranet\HR\bin\RH.xml
+D:\Work\RH Intranet\HR\bin\roslyn\csc.exe
+D:\Work\RH Intranet\HR\bin\roslyn\csc.exe.config
+D:\Work\RH Intranet\HR\bin\roslyn\csc.rsp
+D:\Work\RH Intranet\HR\bin\roslyn\csi.exe
+D:\Work\RH Intranet\HR\bin\roslyn\csi.rsp
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Work\RH Intranet\HR\bin\roslyn\System.Collections.Immutable.dll
+D:\Work\RH Intranet\HR\bin\roslyn\System.Reflection.Metadata.dll
+D:\Work\RH Intranet\HR\bin\roslyn\vbc.exe
+D:\Work\RH Intranet\HR\bin\roslyn\vbc.exe.config
+D:\Work\RH Intranet\HR\bin\roslyn\vbc.rsp
+D:\Work\RH Intranet\HR\bin\roslyn\VBCSCompiler.exe
+D:\Work\RH Intranet\HR\bin\roslyn\VBCSCompiler.exe.config
+D:\Work\RH Intranet\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Work\RH Intranet\HR\bin\EnvDTE.dll
+D:\Work\RH Intranet\HR\bin\stdole.dll
+D:\Work\RH Intranet\HR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Work\RH Intranet\HR\obj\Debug\RH.vbproj.AssemblyReference.cache
+D:\Work\RH Intranet\HR\obj\Debug\RH.Resources.resources
+D:\Work\RH Intranet\HR\obj\Debug\RH.vbproj.GenerateResource.cache
+D:\Work\RH Intranet\HR\obj\Debug\RH.dll.licenses
+D:\Work\RH Intranet\HR\obj\Debug\RH.vbproj.CoreCompileInputs.cache
+D:\Work\RH Intranet\HR\obj\Debug\RH.vbproj.Up2Date
+D:\Work\RH Intranet\HR\obj\Debug\RH.dll
+D:\Work\RH Intranet\HR\obj\Debug\RH.xml
+D:\Work\RH Intranet\HR\obj\Debug\RH.pdb
+D:\Work\RH Intranet\HR\bin\roslyn\csi.exe.config
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Work\RH Intranet\HR\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Work\RH Intranet\HR\bin\roslyn\System.Buffers.dll
+D:\Work\RH Intranet\HR\bin\roslyn\System.Memory.dll
+D:\Work\RH Intranet\HR\bin\roslyn\System.Numerics.Vectors.dll
+D:\Work\RH Intranet\HR\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Work\RH Intranet\HR\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Work\RH Intranet\HR\bin\roslyn\System.Threading.Tasks.Extensions.dll
